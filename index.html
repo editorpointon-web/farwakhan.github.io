@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Farwa Khan — Digital Marketing Strategist, Social Media Manager and Content Creator.">
+<title>Farwa Khan | Digital Marketing Strategist</title>
+<style>
+:root{--cream:#F5EBDD;--cream2:#FFF9F2;--taupe:#B99A84;--mocha:#795640;--terracotta:#A56742;--ink:#27211d;--muted:#75685f;--line:#e5d6c7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream2);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:20px}.brand{font-family:Georgia,serif;font-size:1.35rem;font-weight:bold;letter-spacing:.04em}.brand span{color:var(--terracotta)}.navlinks{display:flex;gap:24px;flex-wrap:wrap;font-size:.9rem}.navlinks a:hover{color:var(--terracotta)}
+.hero{min-height:650px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:42px;padding:48px 0 70px}.eyebrow{text-transform:uppercase;letter-spacing:.25em;font-size:.78rem;font-weight:bold;color:var(--mocha)}h1{font:clamp(3.5rem,7vw,6.5rem)/.92 Georgia,serif;letter-spacing:-.04em;margin:20px 0}h1 span{display:block;color:var(--terracotta)}.tagline{letter-spacing:.18em;text-transform:uppercase;font-size:.82rem;margin:25px 0;color:var(--mocha)}.intro{max-width:560px;color:#554941;font-size:1.04rem}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:13px 23px;border-radius:99px;background:var(--mocha);color:white;font-size:.9rem;letter-spacing:.06em;border:1px solid var(--mocha);transition:.2s}.btn:hover{background:var(--terracotta);border-color:var(--terracotta)}.btn.secondary{background:transparent;color:var(--mocha)}.portrait-area{position:relative;min-height:490px;display:grid;place-items:center}.blob{position:absolute;width:95%;height:100%;background:var(--taupe);border-radius:47% 53% 44% 56%/45% 38% 62% 55%;transform:rotate(-4deg)}.portrait{position:relative;width:min(390px,83%);height:450px;border:9px solid var(--cream2);border-radius:48% 48% 45% 45%;overflow:hidden;box-shadow:0 20px 55px #63442b24;background:linear-gradient(145deg,#d8c5b4,#9b7c66);display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;color:#fff}.portrait img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.portrait .placeholder{position:relative;background:#6c5140c9;padding:18px;border-radius:16px;font-size:.9rem;max-width:260px}.note{font-size:.8rem;color:var(--muted);text-align:center;margin-top:8px}
+section{padding:82px 0}.section-kicker{color:var(--terracotta);font-size:.78rem;text-transform:uppercase;letter-spacing:.22em;font-weight:bold}.section-title{font:clamp(2.3rem,4vw,3.6rem)/1.05 Georgia,serif;margin:10px 0 18px}.section-lead{max-width:690px;color:var(--muted)}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px;align-items:start}.about-card{background:var(--cream);padding:28px;border-radius:22px;border:1px solid var(--line)}.about-card strong{font:2.2rem Georgia,serif;color:var(--terracotta);display:block}.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.chip{padding:9px 13px;border:1px solid #cdb6a3;border-radius:99px;font-size:.86rem;background:#fff9f2}
+.services-grid,.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}.card{padding:27px;background:white;border:1px solid var(--line);border-radius:20px;box-shadow:0 8px 28px #4c30210a}.icon{width:43px;height:43px;border-radius:14px;background:var(--cream);display:grid;place-items:center;font-size:1.2rem}.card h3{font:1.35rem Georgia,serif;margin:18px 0 8px}.card p{color:var(--muted);font-size:.94rem;margin:0}.soft{background:var(--cream)}.work-card{min-height:230px;background:linear-gradient(145deg,#ead9ca,#f8efe5);border:1px solid #ddc9b7;border-radius:20px;padding:24px;display:flex;flex-direction:column;justify-content:space-between}.work-card:nth-child(2){background:linear-gradient(145deg,#c7ad9a,#efe2d5)}.work-card:nth-child(3){background:linear-gradient(145deg,#e8d4c3,#c4a28a)}.work-card:nth-child(4){background:linear-gradient(145deg,#f4e9dc,#dac2ae)}.work-card:nth-child(5){background:linear-gradient(145deg,#d7c2b0,#f5e8dc)}.work-card:nth-child(6){background:linear-gradient(145deg,#b99a84,#e8d8ca)}.work-card .num{font:2.7rem Georgia,serif;color:#79564080}.work-card h3{font:1.45rem Georgia,serif;margin:0}.work-card p{margin:5px 0 0;color:#57463b;font-size:.9rem}.work-note{font-size:.82rem;color:var(--muted);margin-top:15px}
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}.step{border-top:2px solid var(--taupe);padding-top:15px}.step b{color:var(--terracotta);letter-spacing:.1em;font-size:.78rem}.step h3{font:1.2rem Georgia,serif;margin:7px 0}.contact-box{background:var(--mocha);color:#fff9f2;border-radius:28px;padding:clamp(28px,6vw,65px);display:grid;grid-template-columns:1fr auto;align-items:center;gap:30px}.contact-box .section-kicker{color:#e6c9b2}.contact-box .section-title{margin-bottom:12px}.contact-box p{color:#f0e1d5}.contact-box .btn{background:var(--cream2);color:var(--mocha);border-color:var(--cream2)}.contact-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:20px;font-size:.92rem}.contact-links a{text-decoration:underline;text-underline-offset:4px}footer{padding:25px 0;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:800px){.hero{grid-template-columns:1fr;gap:20px;padding-top:35px}.hero-copy{order:1}.portrait-area{order:0;min-height:370px}.portrait{height:350px;width:min(300px,80%)}.about-grid{grid-template-columns:1fr;gap:25px}.services-grid,.work-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(2,1fr)}.contact-box{grid-template-columns:1fr}.navlinks{gap:12px}.navlinks a{font-size:.8rem}}
+@media(max-width:520px){nav{align-items:flex-start;flex-direction:column}.navlinks{gap:10px 16px}.services-grid,.work-grid,.process-grid{grid-template-columns:1fr}.portrait-area{min-height:330px}.portrait{height:310px}section{padding:60px 0}h1{font-size:3.7rem}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav aria-label="Main navigation">
+<a class="brand" href="#home">FARWA<span>.</span></a>
+<div class="navlinks"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Portfolio</a><a href="#process">My Approach</a><a href="#contact">Contact</a></div>
+</nav>
+</header>
+<main>
+<section class="hero wrap" id="home">
+<div class="hero-copy">
+<div class="eyebrow">Hello, I'm Farwa Khan</div>
+<h1>THE <span>PHILOSOPHY</span></h1>
+<div class="tagline">Strategy&nbsp; | &nbsp;Creativity&nbsp; | &nbsp;Impact</div>
+<p class="intro">I’m a digital marketing strategist passionate about thoughtful content, strategic growth, and modern visual storytelling. I combine analytical thinking with creative ideas to help brands build a meaningful and consistent digital presence.</p>
+<div class="buttons"><a class="btn" href="#contact">LET'S CONNECT&nbsp; ↗</a><a class="btn secondary" href="#work">EXPLORE MY WORK</a></div>
+</div>
+<div>
+<div class="portrait-area"><div class="blob"></div><div class="portrait" id="portrait">
+<div class="placeholder">Add your profile photo here<br><small>Replace <b>profile.jpg</b> in this folder</small></div>
+</div></div>
+<p class="note">Personal brand · Digital marketing portfolio</p>
+</div>
+</section>
+<section class="soft" id="about"><div class="wrap about-grid">
+<div><div class="section-kicker">A little about me</div><h2 class="section-title">Creative thinking.<br>Purposeful strategy.</h2><div class="about-card"><strong>01 /</strong> Strategy first, creativity always.<p>I believe good digital marketing is more than posting regularly—it’s about understanding an audience, communicating clearly, and learning from results.</p></div></div>
+<div><p class="section-lead">I’m building my expertise across social media management, content planning, visual design, and paid campaign strategy. My goal is to create digital experiences that feel cohesive, look polished, and support business goals.</p><p class="section-lead">I value clear communication, consistent branding, audience-focused content, and continuous improvement. This portfolio brings together my services and the kinds of projects I can create for a brand.</p><div class="skills"><span class="chip">Social Media Strategy</span><span class="chip">Content Calendars</span><span class="chip">Canva Design</span><span class="chip">Meta Ads</span><span class="chip">Branding</span><span class="chip">Content Creation</span></div></div>
+</div></section>
+<section id="services"><div class="wrap"><div class="section-kicker">What I can do</div><h2 class="section-title">Services designed for growth.</h2><p class="section-lead">Practical creative support for brands that want a clearer, more consistent online presence.</p>
+<div class="services-grid">
+<article class="card"><div class="icon">✳</div><h3>Social Media Management</h3><p>Platform planning, profile consistency, post scheduling, and audience-focused content ideas for Instagram and Facebook.</p></article>
+<article class="card"><div class="icon">▦</div><h3>Content Calendar Planning</h3><p>Organized monthly content plans with post themes, formats, captions, and clear content objectives.</p></article>
+<article class="card"><div class="icon">✎</div><h3>Content & Graphic Design</h3><p>Clean, on-brand social media creatives, promotional posts, and visual concepts created with a consistent style.</p></article>
+<article class="card"><div class="icon">↗</div><h3>Meta Ads Support</h3><p>Campaign planning concepts, audience ideas, ad creative direction, and performance-focused thinking.</p></article>
+<article class="card"><div class="icon">◇</div><h3>Branding & Visual Identity</h3><p>Colour palettes, typography direction, and cohesive visual elements that help a brand feel recognizable.</p></article>
+<article class="card"><div class="icon">◎</div><h3>Content Strategy</h3><p>Content pillars and campaign ideas designed to educate, engage, build trust, and encourage action.</p></article>
+</div></div></section>
+<section class="soft" id="work"><div class="wrap"><div class="section-kicker">Selected work</div><h2 class="section-title">A space for my creative projects.</h2><p class="section-lead">Add your real designs and project screenshots to these portfolio categories. Keep only work you created or have permission to show.</p>
+<div class="work-grid">
+<div class="work-card"><span class="num">01</span><div><h3>Social Media Posts</h3><p>Instagram & Facebook creative designs</p></div></div>
+<div class="work-card"><span class="num">02</span><div><h3>Content Calendar</h3><p>Monthly planning & post ideas</p></div></div>
+<div class="work-card"><span class="num">03</span><div><h3>Branding Design</h3><p>Colour, typography & visual direction</p></div></div>
+<div class="work-card"><span class="num">04</span><div><h3>Meta Ads Concepts</h3><p>Ad creatives & campaign planning</p></div></div>
+<div class="work-card"><span class="num">05</span><div><h3>Competitor Analysis</h3><p>Social media research & insights</p></div></div>
+<div class="work-card"><span class="num">06</span><div><h3>Campaign Ideas</h3><p>Promotions, launches & engagement</p></div></div>
+</div><p class="work-note">Portfolio note: These are project categories, not claims of completed client work. Replace or supplement them with your actual samples.</p>
+</div></section>
+<section id="process"><div class="wrap"><div class="section-kicker">My approach</div><h2 class="section-title">Thoughtful from start to finish.</h2><div class="process-grid">
+<div class="step"><b>STEP 01</b><h3>Discover</h3><p class="section-lead">Understand the brand, audience, and goals.</p></div>
+<div class="step"><b>STEP 02</b><h3>Plan</h3><p class="section-lead">Build a clear strategy and content direction.</p></div>
+<div class="step"><b>STEP 03</b><h3>Create</h3><p class="section-lead">Design purposeful, on-brand content.</p></div>
+<div class="step"><b>STEP 04</b><h3>Improve</h3><p class="section-lead">Review performance and refine the approach.</p></div>
+</div></div></section>
+<section class="wrap" id="contact"><div class="contact-box"><div><div class="section-kicker">Have a project in mind?</div><h2 class="section-title">Let’s make your brand stand out.</h2><p>I'm open to digital marketing opportunities, collaborations, and creative projects.</p><div class="contact-links"><a href="mailto:your.email@example.com">Email me</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a></div></div><a class="btn" href="mailto:your.email@example.com">GET IN TOUCH ↗</a></div></section>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> Farwa Khan. All rights reserved.</span><span>Designed with strategy, creativity & care.</span></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const p=document.getElementById('portrait');
+const img=new Image();img.src='profile.jpg';img.alt='Farwa Khan profile photo';
+img.onload=()=>{p.innerHTML='';p.appendChild(img)};
+</script>
+</body></html>
